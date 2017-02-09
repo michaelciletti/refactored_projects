@@ -1,6 +1,6 @@
 for i in 1..100 
-
-i
-
+	if i % 15 == 0 then "mined minds"
+	else i
+	end
 end
 
