@@ -1,6 +1,9 @@
-for i in 1..100
-	if i % 15 == 0 then "mined minds"
-	else i
-	end
-end
+def refactored_mined_minds_kata(i)
 
+	if i % 15 == 0             
+   		return "mined minds"        
+        
+   	else            
+   		return i        
+   	end
+ end
