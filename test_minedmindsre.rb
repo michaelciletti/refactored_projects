@@ -11,8 +11,12 @@ class TestMinedmindsre < Minitest::Test
 		assert_equal("mined minds", refactored_mined_minds_kata(15))
 	end
 
-	def test_3_returns_3
+	def test_3_returns_mined
 		assert_equal("mined", refactored_mined_minds_kata(3))
+	end
+
+	def test_3_returns_minds
+		assert_equal("minds", refactored_mined_minds_kata(5))
 	end
 
 	
